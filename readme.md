@@ -1,3 +1,4 @@
+
 #LandGrant
 
 In the coming absence of Grantland's reporting, I thought it would make sense to download the entire site, build a Markov chain trained on the text for the articles, and occassionally tweet out newly created sentences.
@@ -15,7 +16,7 @@ Using the venerable [marky_markov](https://github.com/zolrath/marky_markov) gem,
 [Interesting SO on cleaning the html files.](http://stackoverflow.com/questions/2505104/html-to-plain-text-with-ruby)
 
 ##Twitter Bot
-Not running automatically yet but it will be at `@landgrantbot`.  Current account is run manually by generating a sentence and pasting it in.
+Not running automatically yet but it will be at `@landgrantbot`.  Current account - [https://twitter.com/landgrantbot](https://twitter.com/landgrantbot) is run manually by generating a sentence and pasting it in.
 
 ##Use
     require 'marky_markov'
