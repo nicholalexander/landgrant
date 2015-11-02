@@ -14,7 +14,12 @@ Using the venerable [marky_markov](https://github.com/zolrath/marky_markov) gem,
 
 [Interesting SO on cleaning the html files.](http://stackoverflow.com/questions/2505104/html-to-plain-text-with-ruby)
 
-
-
 ##Twitter Bot
 Not running yet but it will be at `@landgrantbot`
+
+##Use
+    require 'marky_markov'
+    markov = MarkyMarkov::Dictionary.new('dictionary')
+    markov.generate_2_sentences
+
+>All her thinking is that he’s getting the minute Kanye brought in, because the story. Same old, same old, unoriginal stuff made some pals she thought they spoke in the hallway with the salty air after an experimental software upgrade grants him sentience and reads Grantland.
